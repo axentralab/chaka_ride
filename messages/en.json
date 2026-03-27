@@ -1,0 +1,52 @@
+{
+  "LocaleSwitcher": {
+    "label": "Language",
+    "en": "English",
+    "bn": "বাংলা"
+  },
+  "Nav": {
+    "home": "Home",
+    "about": "About Us",
+    "service": "Service",
+    "cars": "Cars",
+    "pages": "Pages",
+    "contact": "Contact Us",
+    "bookRental": "Book A Rental",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNav": "Main navigation"
+  },
+  "NavDropdown": {
+    "home": {
+      "hero": "Hero",
+      "fleet": "Featured fleet"
+    },
+    "service": {
+      "airport": "Airport transfer",
+      "longTerm": "Long-term rental",
+      "chauffeur": "Chauffeur"
+    },
+    "cars": {
+      "economy": "Economy",
+      "suv": "SUV",
+      "luxury": "Luxury"
+    },
+    "pages": {
+      "faq": "FAQ",
+      "terms": "Terms"
+    }
+  },
+  "HomePage": {
+    "title": "Rent a car, your way",
+    "description": "Browse the fleet and book in minutes. TanStack Query is wired at the root so you can load vehicles, pricing, and availability anywhere under this layout."
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "backHome": "Back home"
+  },
+  "Metadata": {
+    "title": "Chaka Ride — Car rental",
+    "description": "Book reliable vehicles for travel, business, and leisure. Airport transfers, long-term rental, and premium fleet."
+  }
+}
