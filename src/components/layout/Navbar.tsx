@@ -260,7 +260,11 @@ function MobileNavMenu({
         item.dropdown?.length ? (
           <MobileAccordionItem
             key={item.href}
-            item={{ label: item.label, href: item.href, children: item.dropdown }}
+            item={{
+              label: item.label,
+              href: item.href,
+              children: item.dropdown,
+            }}
             depth={0}
             onNavigate={onNavigate}
           />
@@ -292,13 +296,34 @@ export default function Navbar() {
   const dropdowns = useMemo(
     () => ({
       service: [
-        { label: tService("airportPickupDrop"), href: "/service/airport-pickup-drop" },
-        { label: tService("groupTourMinibus"), href: "/service/group-tour-minibus" },
-        { label: tService("hourlyCarRental"), href: "/service/hourly-car-rental" },
-        { label: tService("dailyCarRental"), href: "/service/daily-car-rental" },
-        { label: tService("monthlyCarRental"), href: "/service/monthly-car-rental" },
-        { label: tService("weddingCarRental"), href: "/service/wedding-car-rental" },
-        { label: tService("officePickAndDrop"), href: "/service/office-pick-and-drop" },
+        {
+          label: tService("airportPickupDrop"),
+          href: "/service/airport-pickup-drop",
+        },
+        {
+          label: tService("groupTourMinibus"),
+          href: "/service/group-tour-minibus",
+        },
+        {
+          label: tService("hourlyCarRental"),
+          href: "/service/hourly-car-rental",
+        },
+        {
+          label: tService("dailyCarRental"),
+          href: "/service/daily-car-rental",
+        },
+        {
+          label: tService("monthlyCarRental"),
+          href: "/service/monthly-car-rental",
+        },
+        {
+          label: tService("weddingCarRental"),
+          href: "/service/wedding-car-rental",
+        },
+        {
+          label: tService("officePickAndDrop"),
+          href: "/service/office-pick-and-drop",
+        },
         { label: tService("emergencyDrop"), href: "/service/emergency-drop" },
       ] satisfies DropdownItem[],
 
