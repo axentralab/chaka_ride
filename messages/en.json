@@ -143,7 +143,7 @@
     "dropoffPlaceholder": "Drop off location",
     "dateLabel": "Date",
     "timeLabel": "Time",
-    "send": "Send",
+    "send": "Search",
     "viewAllCars": "View All Cars",
     "imageAlt": "Premium rental cars"
   },
@@ -209,6 +209,9 @@
     "missionEyebrow": "Our Mission",
     "missionTitle": "Making travel simple and accessible",
     "missionBody": "We believe everyone deserves affordable, dependable transportation. Our platform bridges the gap between passengers and quality car providers—handling driver matching, pricing negotiations, and trip coordination so you can focus on the road ahead.",
+    "missionHighlight1": "Verified drivers and vehicles for every trip",
+    "missionHighlight2": "Transparent, upfront pricing with no hidden fees",
+    "missionHighlight3": "Available across all 64 districts of Bangladesh",
     "stat1Value": "500+",
     "stat1Label": "Trips completed",
     "stat2Value": "50+",
@@ -227,6 +230,10 @@
     "value3Body": "From booking to drop-off, our team stays reachable. We listen, adapt, and go the extra mile to make your experience seamless.",
     "value4Title": "Local expertise",
     "value4Body": "Based in Dhaka with deep knowledge of routes across Bangladesh. We understand traffic patterns, road conditions, and the best ways to get you there.",
+    "value5Title": "Always on time",
+    "value5Body": "We know your time matters. Our drivers arrive punctually, routes are planned ahead, and we keep you updated so there are no last-minute surprises.",
+    "value6Title": "Premium experience",
+    "value6Body": "Clean, well-maintained cars with courteous drivers. Whether it is a business trip or a family outing, we make every ride feel comfortable and special.",
     "ctaTitle": "Ready to ride with us?",
     "ctaBody": "Book your next trip in minutes. Tell us where you are going and we will handle the rest.",
     "ctaButton": "Book on WhatsApp"
@@ -261,7 +268,11 @@
     "whatsappTitle": "WhatsApp",
     "whatsappValue": "Chat with us instantly",
     "whatsappHref": "https://wa.me/8801XXXXXXXXX",
-    "socialTitle": "Follow us"
+    "socialTitle": "Follow us",
+    "mapEyebrow": "Our Location",
+    "mapTitle": "Find us on the map",
+    "mapSubtitle": "Visit our office or get directions — we are always happy to welcome you.",
+    "mapDirections": "Get Directions"
   },
   "NotFound": {
     "title": "Page not found",
