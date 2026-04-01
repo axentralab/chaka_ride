@@ -13,7 +13,7 @@ export default function FooterCarSection() {
             alt=""
             width={200}
             height={80}
-            className="pointer-events-none h-8 w-auto select-none sm:h-10"
+            className="pointer-events-none h-6 w-auto select-none sm:h-8"
             draggable={false}
           />
         </div>
@@ -23,7 +23,7 @@ export default function FooterCarSection() {
             alt=""
             width={220}
             height={90}
-            className="pointer-events-none h-8 w-auto select-none sm:h-10"
+            className="pointer-events-none h-6 w-auto select-none sm:h-8"
             draggable={false}
           />
         </div>
@@ -33,7 +33,7 @@ export default function FooterCarSection() {
             alt=""
             width={200}
             height={80}
-            className="pointer-events-none h-8 w-auto select-none sm:h-10"
+            className="pointer-events-none h-6 w-auto select-none sm:h-8"
             draggable={false}
           />
         </div>
