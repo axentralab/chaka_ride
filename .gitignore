@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+# Local pnpm store (never commit; huge file count breaks Git UI)
+.pnpm-store/
 /.pnp
 .pnp.*
 .yarn/*

@@ -1,4 +1,10 @@
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import CarGallerySection from "@/components/home/CarGallerySection";
+import FaqSection from "@/components/home/FaqSection";
+import HeroSection from "@/components/home/HeroSection";
+import HowItWorksSection from "@/components/home/HowItWorksSection";
+import TestimonialsSection from "@/components/home/TestimonialsSection";
+import WhyChooseUsSection from "@/components/home/WhyChooseUsSection";
+import { setRequestLocale } from "next-intl/server";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -7,14 +13,15 @@ type Props = {
 export default async function HomePage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations("HomePage");
 
   return (
-    <div className="mx-auto max-w-[1200px] px-5 py-16 sm:px-8 lg:px-6">
-      <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-        {t("title")}
-      </h1>
-      <p className="mt-4 max-w-xl text-slate-600">{t("description")}</p>
-    </div>
+    <>
+      <HeroSection />
+      <HowItWorksSection />
+      <WhyChooseUsSection />
+      <CarGallerySection />
+      <FaqSection />
+      <TestimonialsSection />
+    </>
   );
 }

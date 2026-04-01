@@ -1,3 +1,5 @@
+import LenisProvider from "@/providers/LenisProvider";
+import MotionProvider from "@/providers/MotionProvider";
 import QueryProviders from "@/providers/QueryProvider";
 import { routing } from "@/i18n/routing";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
@@ -55,14 +57,16 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html
       lang={locale}
-      className={`${geistSans.variable} ${geistMono.variable} ${notoBengali.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${notoBengali.variable} h-full scroll-pt-[72px] antialiased`}
     >
       <body
         className={`flex min-h-full flex-col font-sans ${locale === "bn" ? "font-bengali" : ""}`}
       >
         <QueryProviders>
           <NextIntlClientProvider locale={locale} messages={messages}>
-            {children}
+            <LenisProvider>
+              <MotionProvider>{children}</MotionProvider>
+            </LenisProvider>
           </NextIntlClientProvider>
         </QueryProviders>
       </body>

@@ -9,12 +9,14 @@
     "about": "About Us",
     "service": "Service",
     "cars": "Cars",
-    "pages": "Pages",
+    "rent": "Rent",
     "contact": "Contact Us",
-    "bookRental": "Book A Rental",
+    "bookWhatsapp": "Book on WhatsApp",
+    "bookWhatsappAria": "Book on WhatsApp (opens in a new tab)",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
-    "mainNav": "Main navigation"
+    "mainNav": "Main navigation",
+    "logoAlt": "Chaka Ride"
   },
   "NavDropdown": {
     "home": {
@@ -22,23 +24,244 @@
       "fleet": "Featured fleet"
     },
     "service": {
-      "airport": "Airport transfer",
-      "longTerm": "Long-term rental",
-      "chauffeur": "Chauffeur"
+      "airportPickupDrop": "Airport Pickup & Drop",
+      "groupTourMinibus": "Group Tour Minibus",
+      "hourlyCarRental": "Hourly Car Rental",
+      "dailyCarRental": "Daily Car Rental",
+      "monthlyCarRental": "Monthly Car Rental",
+      "weddingCarRental": "Wedding Car Rental",
+      "officePickAndDrop": "Office Pick & Drop",
+      "emergencyDrop": "Emergency Drop"
     },
     "cars": {
-      "economy": "Economy",
-      "suv": "SUV",
-      "luxury": "Luxury"
+      "noah": "Toyota Noah",
+      "hiace": "Toyota Hiace",
+      "sedan": "Sedan",
+      "chanderGari": "Chander Gari",
+      "sedanPremium": "Premium Sedan",
+      "sedanEconomy": "Economy Sedan"
     },
-    "pages": {
-      "faq": "FAQ",
-      "terms": "Terms"
-    }
+    "rent": {}
   },
   "HomePage": {
     "title": "Rent a car, your way",
     "description": "Browse the fleet and book in minutes. TanStack Query is wired at the root so you can load vehicles, pricing, and availability anywhere under this layout."
+  },
+  "HowItWorks": {
+    "eyebrow": "How it works",
+    "title": "Book a car in three simple steps",
+    "subtitle": "Tell us what you need from the hero form—we handle driver matching, pricing, and introductions so you can travel with confidence.",
+    "step1Title": "Submit your request",
+    "step1Description": "Fill in every field in the booking form above—your details, trip, vehicle choice, and pick-up time—then tap Send.",
+    "step1Bullet1": "One form captures your full trip brief",
+    "step1Bullet2": "We receive your request instantly",
+    "step1Bullet3": "No payment until options are confirmed",
+    "step2Title": "We match drivers & pricing",
+    "step2Description": "Your request appears on our admin dashboard. We reach out to available car providers and drivers, compare willingness to take the trip, and collect their quotes.",
+    "step2Bullet1": "Large network of providers and drivers",
+    "step2Bullet2": "We negotiate timing and price for you",
+    "step2Bullet3": "Best-fit options shortlisted quickly",
+    "step3Title": "We call you—then you connect",
+    "step3Description": "We phone you with vehicle, driver, and price details. If you agree, the car provider or driver contacts you directly to finalize pickup and trip details.",
+    "step3Bullet1": "Clear summary over the phone",
+    "step3Bullet2": "You choose before anyone is assigned",
+    "step3Bullet3": "Direct handoff when you say yes"
+  },
+  "WhyChooseUs": {
+    "eyebrow": "Why Choose Us",
+    "title": "Unmatched quality and service for your journey",
+    "skylineAlt": "City skyline at Purbachal",
+    "carAlt": "Premium rental car",
+    "feature1Title": "Extensive fleet options",
+    "feature1Body": "From Noah and HiAce to sedans and local rides—pick the vehicle that fits your trip, group size, and budget.",
+    "feature2Title": "Human support, start to finish",
+    "feature2Body": "Our team handles your request, coordinates drivers, and stays reachable by phone until you are on the road.",
+    "feature3Title": "Coverage where you need it",
+    "feature3Body": "Pick-up and drop-off across the routes we serve—tell us your locations and we match you with available providers.",
+    "feature4Title": "Reliability and safety",
+    "feature4Body": "We work with vetted car providers and drivers so you get clear pricing, verified contacts, and peace of mind."
+  },
+  "CarGallery": {
+    "eyebrow": "Featured cars",
+    "title": "Browse vehicles for every trip",
+    "navLabel": "Gallery navigation",
+    "prev": "Show previous vehicles",
+    "next": "Show next vehicles",
+    "stripLabel": "Vehicle gallery",
+    "cards": {
+      "noah": "Toyota Noah",
+      "hiace": "Toyota Hiace",
+      "sedan": "Sedan",
+      "premium": "Premium sedan"
+    }
+  },
+  "Faq": {
+    "eyebrow": "Frequently Asked Questions",
+    "title": "Everything you need to know about our services",
+    "imageAlt": "Premium car for rental FAQ",
+    "imageAltFront": "Fleet and rental scene",
+    "items": {
+      "1": {
+        "question": "What do I need to rent a car?",
+        "answer": "Browse our fleet and pick a vehicle that fits your trip. Share your pickup and drop-off locations, travel dates, and contact details in the booking form—we will confirm availability, pricing, and any documents required before you finalize."
+      },
+      "2": {
+        "question": "How old do I need to be to rent a car?",
+        "answer": "Minimum age depends on the vehicle and provider—often 21 or 25 for larger or premium cars. Send us your trip details and we will tell you exactly what applies and match you with an eligible option."
+      },
+      "3": {
+        "question": "Can I rent a car with a debit card?",
+        "answer": "Some providers accept debit cards; others require a credit card for the security deposit. Tell us your preference when you book and we will align you with a provider whose payment rules work for you."
+      }
+    }
+  },
+  "Hero": {
+    "headlineLine1": "Your journey starts",
+    "headlineLine2": "Here with Chaka Ride",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "mobileNumber": "Mobile Number",
+    "mobilePlaceholder": "01XXXXXXXXX",
+    "pickupLocation": "Pick-up Location",
+    "dropoffLocation": "Drop-off Location",
+    "chooseCar": "Choose car",
+    "chooseCarPlaceholder": "Select a vehicle",
+    "seatsCount": "{count} seats",
+    "tripType": "Trip type",
+    "oneWay": "One way",
+    "roundTrip": "Round trip",
+    "carLabels": {
+      "noah": "Toyota Noah",
+      "hiace": "Toyota Hiace",
+      "sedan": "Sedan",
+      "chander_gari": "Chander gari",
+      "sedan-premium": "Premium sedan",
+      "sedan-economy": "Economy sedan"
+    },
+    "pickupDateTime": "Pick-up Date & Time",
+    "pickupPlaceholder": "Pick up location",
+    "dropoffPlaceholder": "Drop off location",
+    "dateLabel": "Date",
+    "timeLabel": "Time",
+    "send": "Send",
+    "viewAllCars": "View All Cars",
+    "imageAlt": "Premium rental cars"
+  },
+  "Testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "What clients say",
+    "role": "Customer",
+    "starsLabel": "{count} out of 5 stars",
+    "avatarAlt": "Photo of {name}",
+    "items": {
+      "1": {
+        "quote": "Booking through Chaka Ride was effortless. The driver was on time, the car was spotless, and the whole trip felt safe from pick-up to drop-off.",
+        "name": "Rashida Khan"
+      },
+      "2": {
+        "quote": "We needed a larger vehicle for a family weekend—Noah was perfect. Clear pricing over the phone and no surprises at the end. Highly recommend.",
+        "name": "Karim Ahmed"
+      },
+      "3": {
+        "quote": "I use Chaka Ride for airport runs regularly. Reliable, professional, and they always confirm details before the day. Exactly what I need for work travel.",
+        "name": "Nadia Rahman"
+      }
+    }
+  },
+  "Footer": {
+    "footerNav": "Site footer",
+    "callTitle": "Call us",
+    "callValue": "+880 1XXX-XXXXXX",
+    "callTel": "+8801XXXXXXXXX",
+    "writeTitle": "Write to us",
+    "writeValue": "hello@chakaride.com",
+    "writeEmail": "hello@chakaride.com",
+    "addressTitle": "Address",
+    "addressValue": "Dhaka, Bangladesh",
+    "brandBlurb": "Reliable car rental and transfers—Noah, HiAce, sedans, and more. We match you with vetted drivers and clear pricing for every trip.",
+    "quickLinksTitle": "Quick links",
+    "linkAbout": "About",
+    "linkCars": "Cars",
+    "linkCarTypes": "Services",
+    "linkContact": "Contact",
+    "subscribeTitle": "Subscribe",
+    "subscribeBlurb": "Get updates on fleet offers and travel tips. No spam—unsubscribe anytime.",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "Email address",
+    "subscribeSubmitAria": "Subscribe to newsletter",
+    "copyright": "© {year} Chaka Ride. All rights reserved.",
+    "backToTopAria": "Back to top",
+    "socialWhatsapp": "https://wa.me/8801XXXXXXXXX",
+    "socialWhatsappAria": "WhatsApp",
+    "socialFacebook": "https://facebook.com",
+    "socialFacebookAria": "Facebook",
+    "socialYoutube": "https://youtube.com",
+    "socialYoutubeAria": "YouTube"
+  },
+  "RentMenu": {
+    "rentIn": "Rent a Car in {city}",
+    "route": "{from} to {to}"
+  },
+  "AboutPage": {
+    "eyebrow": "About Us",
+    "title": "Your trusted ride partner in Bangladesh",
+    "intro": "Chaka Ride connects travelers with reliable vehicles and vetted drivers across Bangladesh. Whether it is an airport transfer, a family tour, or daily commutes—we make every journey safe, comfortable, and hassle-free.",
+    "missionEyebrow": "Our Mission",
+    "missionTitle": "Making travel simple and accessible",
+    "missionBody": "We believe everyone deserves affordable, dependable transportation. Our platform bridges the gap between passengers and quality car providers—handling driver matching, pricing negotiations, and trip coordination so you can focus on the road ahead.",
+    "stat1Value": "500+",
+    "stat1Label": "Trips completed",
+    "stat2Value": "50+",
+    "stat2Label": "Vehicles in network",
+    "stat3Value": "24/7",
+    "stat3Label": "Support available",
+    "stat4Value": "4.8",
+    "stat4Label": "Average rating",
+    "valuesEyebrow": "Our Values",
+    "valuesTitle": "What drives us every day",
+    "value1Title": "Safety first",
+    "value1Body": "Every driver and vehicle in our network is vetted. We verify documents, inspect cars, and maintain strict safety standards so you travel with confidence.",
+    "value2Title": "Transparent pricing",
+    "value2Body": "No hidden fees, no surge surprises. We negotiate fair rates with providers and present clear pricing before you confirm any trip.",
+    "value3Title": "Customer-centric",
+    "value3Body": "From booking to drop-off, our team stays reachable. We listen, adapt, and go the extra mile to make your experience seamless.",
+    "value4Title": "Local expertise",
+    "value4Body": "Based in Dhaka with deep knowledge of routes across Bangladesh. We understand traffic patterns, road conditions, and the best ways to get you there.",
+    "ctaTitle": "Ready to ride with us?",
+    "ctaBody": "Book your next trip in minutes. Tell us where you are going and we will handle the rest.",
+    "ctaButton": "Book on WhatsApp"
+  },
+  "ContactPage": {
+    "eyebrow": "Contact Us",
+    "title": "We would love to hear from you",
+    "subtitle": "Have a question, need a quote, or want to partner with us? Reach out through any channel below and our team will get back to you promptly.",
+    "formTitle": "Send us a message",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "Enter your full name",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "you@example.com",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "01XXXXXXXXX",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "How can we help?",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell us more about your inquiry...",
+    "send": "Send Message",
+    "infoTitle": "Get in touch",
+    "callTitle": "Call us",
+    "callValue": "+880 1XXX-XXXXXX",
+    "callTel": "+8801XXXXXXXXX",
+    "emailTitle": "Email us",
+    "emailValue": "hello@chakaride.com",
+    "emailAddress": "hello@chakaride.com",
+    "addressTitle": "Visit us",
+    "addressValue": "Dhaka, Bangladesh",
+    "hoursTitle": "Business hours",
+    "hoursValue": "Saturday – Thursday, 8 AM – 10 PM",
+    "whatsappTitle": "WhatsApp",
+    "whatsappValue": "Chat with us instantly",
+    "whatsappHref": "https://wa.me/8801XXXXXXXXX",
+    "socialTitle": "Follow us"
   },
   "NotFound": {
     "title": "Page not found",
