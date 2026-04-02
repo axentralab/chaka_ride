@@ -165,25 +165,28 @@ function NavLink({
       : pathname === p || pathname.startsWith(`${p}/`),
   );
 
+  const classes = `inline-flex items-center gap-1 text-[15px] font-medium tracking-tight transition-colors ${
+    active
+      ? "text-(--brand-primary)"
+      : "text-slate-900 hover:text-(--brand-primary)"
+  }`;
+
   return (
     <div className="group relative">
-      <Link
-        href={href}
-        className={`inline-flex items-center gap-1 text-[15px] font-medium tracking-tight transition-colors ${
-          active
-            ? "text-(--brand-primary)"
-            : "text-slate-900 hover:text-(--brand-primary)"
-        }`}
-      >
-        {label}
-        {hasDropdown ? (
+      {hasDropdown ? (
+        <span className={`${classes} cursor-default`} role="button" tabIndex={0}>
+          {label}
           <ChevronDown
             className="size-[15px] opacity-80"
             strokeWidth={2}
             aria-hidden
           />
-        ) : null}
-      </Link>
+        </span>
+      ) : (
+        <Link href={href} className={classes}>
+          {label}
+        </Link>
+      )}
       <NavDropdown hasDropdown={hasDropdown} items={dropdownItems} />
     </div>
   );
