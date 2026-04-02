@@ -146,9 +146,9 @@
     "send": "Search",
     "viewAllCars": "View All Cars",
     "imageAlt": "Premium rental cars",
-    "alertTitle": "Thank You, {name}!",
-    "alertText": "We have received your request. Our team will call you back soon with proper details. Please give us some time to find the best car and driver for you.",
-    "alertButton": "Got it!"
+    "alertTitle": "Hello {name}!",
+    "alertText": "Thank you for your query. We have received your request. We are finding the car and an available driver. We will call you soon with all the details. Please wait until then.",
+    "alertButton": "Got it"
   },
   "Testimonials": {
     "eyebrow": "Testimonials",

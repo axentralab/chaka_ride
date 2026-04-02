@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label";
 import { HeroCarPicker } from "@/components/home/HeroCarPicker";
 import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
-import { Swal } from "@/lib/sweet-alert";
+import Swal from "sweetalert2";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
