@@ -145,7 +145,10 @@
     "timeLabel": "Time",
     "send": "Search",
     "viewAllCars": "View All Cars",
-    "imageAlt": "Premium rental cars"
+    "imageAlt": "Premium rental cars",
+    "alertTitle": "Thank You, {name}!",
+    "alertText": "We have received your request. Our team will call you back soon with proper details. Please give us some time to find the best car and driver for you.",
+    "alertButton": "Got it!"
   },
   "Testimonials": {
     "eyebrow": "Testimonials",
