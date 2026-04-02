@@ -12,22 +12,22 @@ const GALLERY = [
   {
     key: "noah" as const,
     image: "/assets/images/car-gallery/noah-car.jpg",
-    href: "/cars",
+    href: "/cars/noah",
   },
   {
     key: "hiace" as const,
     image: "/assets/images/car-gallery/hiace-car2.jpg",
-    href: "/cars",
+    href: "/cars/hiace",
   },
   {
     key: "sedan" as const,
     image: "/assets/images/car-gallery/sedan-car.jpg",
-    href: "/cars",
+    href: "/cars/sedan-economy",
   },
   {
     key: "premium" as const,
     image: "/assets/images/car-gallery/sedan-premium-car.jpg",
-    href: "/cars",
+    href: "/cars/sedan-premium",
   },
 ];
 

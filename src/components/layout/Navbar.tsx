@@ -31,7 +31,7 @@ function NavSubItem({ item }: { item: DropdownItem }) {
   }
 
   return (
-    <div className="group/sub relative">
+    <div className="group/sub">
       <Link
         href={item.href}
         className="flex items-center justify-between gap-2 px-4 py-2 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-50 hover:text-(--brand-primary)"
@@ -84,7 +84,7 @@ function NavDropdownItem({ item }: { item: DropdownItem }) {
   }
 
   return (
-    <div className="group/nested relative">
+    <div className="group/nested">
       <Link
         href={item.href}
         className="flex items-center justify-between gap-2 px-4 py-2.5 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-50 hover:text-(--brand-primary)"
@@ -102,7 +102,7 @@ function NavDropdownItem({ item }: { item: DropdownItem }) {
         role="presentation"
       >
         <div
-          className="rounded-lg border border-slate-200/80 bg-white py-1.5 shadow-lg"
+          className="relative rounded-lg border border-slate-200/80 bg-white py-1.5 shadow-lg"
           role="menu"
         >
           {item.children.map((child) => (
@@ -132,7 +132,7 @@ function NavDropdown({
       role="presentation"
     >
       <div
-        className="rounded-lg border border-slate-200/80 bg-white py-2 shadow-lg"
+        className="relative rounded-lg border border-slate-200/80 bg-white py-2 shadow-lg"
         role="menu"
       >
         {items.map((item) => (
