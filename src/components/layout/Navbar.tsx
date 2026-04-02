@@ -174,7 +174,11 @@ function NavLink({
   return (
     <div className="group relative">
       {hasDropdown ? (
-        <span className={`${classes} cursor-default`} role="button" tabIndex={0}>
+        <span
+          className={`${classes} cursor-default`}
+          role="button"
+          tabIndex={0}
+        >
           {label}
           <ChevronDown
             className="size-[15px] opacity-80"
@@ -333,10 +337,9 @@ export default function Navbar() {
       cars: [
         { label: tCars("noah"), href: "/cars/noah" },
         { label: tCars("hiace"), href: "/cars/hiace" },
-        { label: tCars("sedan"), href: "/cars/sedan" },
-        { label: tCars("chanderGari"), href: "/cars/chander-gari" },
         { label: tCars("sedanPremium"), href: "/cars/sedan-premium" },
         { label: tCars("sedanEconomy"), href: "/cars/sedan-economy" },
+        { label: tCars("chanderGari"), href: "/cars/chander-gari" },
       ] satisfies DropdownItem[],
 
       rent: BD_DIVISIONS.map((fromDiv) => ({
