@@ -6,6 +6,7 @@ import { Label } from "@/components/ui/label";
 import { HeroCarPicker } from "@/components/home/HeroCarPicker";
 import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
+import Swal from "sweetalert2";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -104,7 +105,18 @@ export default function HeroSection() {
 
   function handleSubmit(e: SubmitEvent<HTMLFormElement>) {
     e.preventDefault();
-    // Wire to API / navigation when ready
+    const formData = new FormData(e.currentTarget);
+    const name = (formData.get("fullName") as string)?.trim() || "";
+
+    Swal.fire({
+      icon: "success",
+      title: t("alertTitle", { name }),
+      text: t("alertText"),
+      confirmButtonText: t("alertButton"),
+      confirmButtonColor: "var(--brand-primary)",
+    });
+
+    e.currentTarget.reset();
   }
 
   return (
