@@ -1,7 +1,8 @@
 "use client";
 
-import { ReactLenis } from "lenis/react";
-import { useSyncExternalStore } from "react";
+import { usePathname } from "next/navigation";
+import { ReactLenis, useLenis } from "lenis/react";
+import { useEffect, useSyncExternalStore } from "react";
 
 const LENIS_OPTIONS = {
   autoRaf: true,
@@ -23,6 +24,17 @@ function getReducedMotion() {
   return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 }
 
+function ScrollToTop() {
+  const pathname = usePathname();
+  const lenis = useLenis();
+
+  useEffect(() => {
+    lenis?.scrollTo(0, { immediate: true });
+  }, [pathname, lenis]);
+
+  return null;
+}
+
 export default function LenisProvider({
   children,
 }: {
@@ -40,6 +52,7 @@ export default function LenisProvider({
 
   return (
     <ReactLenis root options={LENIS_OPTIONS}>
+      <ScrollToTop />
       {children}
     </ReactLenis>
   );
